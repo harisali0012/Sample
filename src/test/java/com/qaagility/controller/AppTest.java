@@ -23,7 +23,7 @@ Calculator myCalc = new Calculator();
 	
 	@Test	
       public void testCalc() {
-        assertEquals("Result", 9, myCalc.add(3,6));
+        assertEquals("Result", 10, myCalc.add(4,6));
       }
 
     }
